@@ -18,6 +18,7 @@ namespace Asp_Net_Core_6_Web_Api_Setup.Controllers
         [HttpGet]
         public List<CrudTable> GetApi()
         {
+
             var data = _db.CrudTables.ToList();
             //var data = new List<CrudTable>();
             return data;
