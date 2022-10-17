@@ -4,6 +4,6 @@ Add Package For Entity Framwork
 3. Microsoft.EntityFramworkCore.SqlServer
 4. Microsoft.EntityFramworkCore.Tools
 
-Package console run below command-
+After  add packages then run below command-
 ADD-migration initmigration
 update-database -v
